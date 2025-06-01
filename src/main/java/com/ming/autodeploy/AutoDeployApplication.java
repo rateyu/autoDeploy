@@ -17,7 +17,7 @@ public class AutoDeployApplication implements CommandLineRunner {
     public static void main(String[] args) {
         String host = "192.168.1.153";
         String username = "myu";
-        String password = "ym2wgf"; // 如果使用密码的话
+        String password = "xxx"; // 如果使用密码的话
 //        String privateKeyPath = "path/to/your/private/key"; // 如果使用 SSH 密钥认证
         String privateKeyPath = null; // 如果使用 SSH 密钥认证
 //        String remoteCommand = "cd /opt/myapp && git pull && mvn clean package && systemctl restart myapp";
@@ -91,7 +91,7 @@ public class AutoDeployApplication implements CommandLineRunner {
         // 启动时执行部署程序
         String host = "192.168.1.153";
         String username = "myu";
-        String password = "ym2wgf"; // 如果使用密码的话
+        String password = "xxx"; // 如果使用密码的话
 //        String privateKeyPath = "path/to/your/private/key"; // 如果使用 SSH 密钥认证
         String privateKeyPath = null; // 如果使用 SSH 密钥认证
 //        String remoteCommand = "cd /opt/myapp && git pull && mvn clean package && systemctl restart myapp";
